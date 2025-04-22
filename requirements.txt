@@ -1,0 +1,33 @@
+# Backend Requirements
+fastapi==0.110.1
+uvicorn==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+sqlalchemy==2.0.29
+bcrypt==4.1.2
+
+# PDF/Image Processing
+pdf2image==1.17.0
+pytesseract==0.3.10
+poppler-utils==23.07.0
+pdfplumber==0.10.4
+docx2txt==0.8
+
+# NLP/ML
+spacy>=3.7,<3.8
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0-py3-none-any.whl
+sentence-transformers==2.6.1
+scikit-learn==1.4.2
+torch==2.2.2
+nltk==3.8.1
+python-dateutil==2.9.0
+
+# Additional Utilities
+requests==2.31.0
+beautifulsoup4==4.12.3
+tqdm==4.66.2
+pandas==2.2.2
+numpy==1.26.4
+
