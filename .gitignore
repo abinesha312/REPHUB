@@ -1,5 +1,59 @@
-#ignoring the venv file 
-./rephub
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
 
-./rephub/venv
+# Environment & Secrets
+.env
+.env.local
+backend/kaggle.json
+*.json.secret
+*.pem
 
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Frontend
+node_modules/
+frontend/REPHUB/dist/
+frontend/REPHUB/build/
+rephub/node_modules/
+rephub/dist/
+rephub/build/
+
+# Storage & Uploads
+uploads/
+storage/
+*.pdf
+*.docx
+*.doc
+
+# Database
+*.db
+*.sqlite
+
+# ML Models
+models/
+*.pt
+*.pth
+*.bin
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
